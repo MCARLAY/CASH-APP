@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm install --legacy-peer-deps",
+    "build": "npm install --force && npm install --legacy-peer-deps",
     "heroku-prebuild": "npm install --dev --legacy-peer-deps",
     "prepare": "husky install",
     "lint": "eslint --ext '.js,.ts,.tsx' .",
